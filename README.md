@@ -232,7 +232,23 @@ if __name__ == '__main__':
 9. Скопировал my_own_module.py в my_own_namespace/yandex_cloud_elk/plugins/modules/
 10. Преобразовал single task playbook  в single task role и перенёс в collection
 11. Создал playbook для использования этой role
-12. [Collection](https://github.com/Qshar1408/my_own_collection)
+ [Collection](https://github.com/Qshar1408/my_own_collection)
+12. Заполнил всю документацию по collection, выложил в свой репозиторий, поставил тег 1.0.0 на этот коммит.
+13. Создал .tar.gz этой collection
+
+ ![ans_08_06](https://github.com/Qshar1408/ans_08_06/blob/main/img/ans_08_06_005.png)
+
+14. Создал ещё одну директорию testcollection, перенёс туда single task playbook и архив c collection.
+15. Установил collection из локального архива:
+
+ ![ans_08_06](https://github.com/Qshar1408/ans_08_06/blob/main/img/ans_08_06_006.png)
+
+16. Запустил playbook:
+
+![ans_08_06](https://github.com/Qshar1408/ans_08_06/blob/main/img/ans_08_06_007.png)
+
+
+
 
 
 ## Необязательная часть
