@@ -190,6 +190,20 @@ if __name__ == '__main__':
 
 **Шаг 17.** В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16.
 
+
+### Решение:
+
+#### Подготовка: 
+
+![ans_08_06](https://github.com/Qshar1408/ans_08_06/blob/main/img/ans_08_06_001.png)
+
+#### Основное задание:
+
+1. Создал my_own_module.py файл.
+2. Заполнил его предложенным содержимым.
+3. Заполнил файлы [my_own_module.py](https://github.com/Qshar1408/ans_08_06/my_own_module.py) и [my_own_module_args.json](https://github.com/Qshar1408/ans_08_06/my_own_module_args.json)
+
+
 ## Необязательная часть
 
 1. Реализуйте свой модуль для создания хостов в Yandex Cloud.
