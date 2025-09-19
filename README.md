@@ -201,7 +201,7 @@ if __name__ == '__main__':
 
 1. Создал my_own_module.py файл.
 2. Заполнил его предложенным содержимым.
-3. Заполнил файлы [my_own_module.py](https://github.com/Qshar1408/ans_08_06/my_own_module.py) и [my_own_module_args.json](https://github.com/Qshar1408/ans_08_06/my_own_module_args.json)
+3. Заполнил файлы [my_own_module.py](https://github.com/Qshar1408/ans_08_06/tree/main/my_own_module.py) и [my_own_module_args.json](https://github.com/Qshar1408/ans_08_06/my_own_module_args.json)
 
 
 ## Необязательная часть
