@@ -201,7 +201,38 @@ if __name__ == '__main__':
 
 1. Создал my_own_module.py файл.
 2. Заполнил его предложенным содержимым.
-3. Заполнил файлы [my_own_module.py](https://github.com/Qshar1408/ans_08_06/tree/main/my_own_module.py) и [my_own_module_args.json](https://github.com/Qshar1408/ans_08_06/my_own_module_args.json)
+3. Заполнил файлы [my_own_module.py](https://github.com/Qshar1408/ans_08_06/tree/main/my_own_module.py) и [my_own_module_args.json](https://github.com/Qshar1408/ans_08_06/tree/main/my_own_module_args.json)
+4. python3 -m my_own_module my_own_module_args.json
+
+![ans_08_06](https://github.com/Qshar1408/ans_08_06/blob/main/img/ans_08_06_002.png)
+
+5. single_task_playbook.yaml
+
+```bash
+---
+- name: Module testing
+  hosts: localhost
+  tasks:
+
+  - name: Create file with context
+    my_own_module:
+      path: './qshar1408_playbook.txt'
+      content: "This file create by playbook"
+```
+
+6. Проверяем на на идемпотентность
+
+ ![ans_08_06](https://github.com/Qshar1408/ans_08_06/blob/main/img/ans_08_06_003.png)
+
+7. Выходим из виртуального окружения
+8. Инициализирую новую collection
+
+ ![ans_08_06](https://github.com/Qshar1408/ans_08_06/blob/main/img/ans_08_06_004.png)
+
+9. Скопировал my_own_module.py в my_own_namespace/yandex_cloud_elk/plugins/modules/
+10. Преобразовал single task playbook  в single task role и перенёс в collection
+11. Создал playbook для использования этой role
+12. [Collection](https://github.com/Qshar1408/my_own_collection)
 
 
 ## Необязательная часть
